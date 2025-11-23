@@ -1,0 +1,48 @@
+# Casos de Prueba — QA Gaming
+
+## TC01 — Login exitoso
+**Objetivo:** Validar login con credenciales válidas  
+**Pasos:**  
+1. Abrir juego  
+2. Ingresar usuario y contraseña válidos  
+3. Oprimir “Login”  
+**Resultado esperado:** Carga perfil y aparece botón “Continue Game”
+
+---
+
+## TC02 — Login fallido
+**Objetivo:** Manejo de error  
+**Datos:** contraseña incorrecta  
+**Resultado esperado:** Mensaje “Invalid password”
+
+---
+
+## TC03 — Registro de nuevo usuario
+**Resultado esperado:** Perfil creado + nivel 1 desbloqueado
+
+---
+
+## TC04 — Guardado automático
+**Resultado esperado:** Al volver a entrar, progreso debe mantenerse
+
+---
+
+## TC05 — Error en guardado sin conexión
+**Resultado esperado:** Mensaje “Unable to save progress”
+
+---
+
+## TC06 — Valores límite (nombre)
+- Vacío → error  
+- 1–30 caracteres → válido  
+- >30 caracteres → rechazado
+
+---
+
+## TC07 — Archivo dañado
+**Resultado esperado:** “Save file corrupted”
+
+---
+
+## TC08 — FPS mínimo
+**Resultado esperado:** Nunca bajar de 30 FPS

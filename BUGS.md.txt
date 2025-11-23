@@ -1,0 +1,18 @@
+# Bugs identificados
+
+## 🐞 Bug 01 — Progreso no se guarda si se cambia el idioma antes de salir
+**Severidad:** Alta  
+**Prioridad:** Media  
+**Pasos:**  
+1. Completar nivel  
+2. Cambiar idioma  
+3. Guardar y salir  
+4. Volver a entrar  
+**Resultado actual:** Progreso se pierde  
+**Resultado esperado:** Guardado correcto sin importar idioma
+
+---
+
+## 🐞 Bug 02 — Error de login no desaparece al corregir los datos
+**Severidad:** Media  
+**Resultado esperado:** Error debe limpiarse cuando los datos sean válidos
