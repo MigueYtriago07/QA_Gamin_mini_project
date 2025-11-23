@@ -8,7 +8,7 @@ Evaluar la estabilidad del flujo principal del jugador y detectar errores funcio
 
 ## 🛠️ Herramientas utilizadas
 - Chrome DevTools  
-- Selenium (opcional)  
+- Selenium 
 - itch.io / Phaser demo game  
 - Documentación en Markdown  
 - GitHub  
@@ -30,4 +30,5 @@ Este mini proyecto me permitió practicar:
 - Reporte de bugs en escenarios reales
 
 Refuerza mis habilidades como QA Tester Junior interesado en la industria gaming.
+
 
